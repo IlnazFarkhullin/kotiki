@@ -21,7 +21,7 @@
         <StackPanel Grid.Column="1" Orientation="Horizontal" >
             
             
-            <ListView x:Name="kots" Width="550" Height="419">
+            <ListView x:Name="kots" Width="450" Height="419">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <UniformGrid Columns="3"/>
