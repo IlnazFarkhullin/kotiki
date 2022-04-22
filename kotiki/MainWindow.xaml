@@ -19,8 +19,8 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Orientation="Horizontal" >
-            
-            
+
+
             <ListView x:Name="kots" Width="450" Height="419">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -31,14 +31,18 @@
                     <DataTemplate>
                         <StackPanel>
                             <Image Source="{Binding image}" Width="70" Height="50"/>
-                        <TextBlock Text="{Binding name}"/>
+                            <TextBlock Text="{Binding name}"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-                
-                
-            
+            <StackPanel x:Name="StackBTN">
+                <Button Content="←" Width="100" Height="90" x:Name="btnB" Click="btnB_Click"/>
+                <Button Width="100" Height="90" x:Name="btnC" Click="btnC_Click"/>
+                <Button Width="100" Height="90" x:Name="btnN" Click="btnN_Click"/>
+               
+            </StackPanel>
+
         </StackPanel>
     </Grid>
 </Window>
