@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0">
-            <TextBox Background="Black" Foreground="White" TextChanged="Search" x:Name="search"/>
+            <TextBox Background="Black" Foreground="White" TextChanged="Search" x:Name="search" Margin="0,0,-0.6,0"/>
             <Button x:Name="one" Content="↑" Click="one_Click" />
             <Button x:Name="two" Content="↓" Click="two_Click"/>
         </StackPanel>
@@ -40,7 +40,7 @@
                 <Button Content="←" Width="100" Height="90" x:Name="btnB" Click="btnB_Click"/>
                 <Button Width="100" Height="90" x:Name="btnC" Click="btnC_Click"/>
                 <Button Width="100" Height="90" x:Name="btnN" Click="btnN_Click"/>
-               
+
             </StackPanel>
 
         </StackPanel>
